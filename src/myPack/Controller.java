@@ -31,6 +31,7 @@ public class Controller {
     private ImageView imgv;
     Image img;
     Double h,w;
+    // declared buttons
     @FXML
     Button zom = new Button();
     @FXML Button save = new Button();
