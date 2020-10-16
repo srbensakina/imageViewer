@@ -18,8 +18,8 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
         primaryStage.setTitle("imageViewer");
         primaryStage.setScene(new Scene(root));
-        stage=primaryStage;
         primaryStage.getIcons().add(new Image((Main.class.getResourceAsStream("img/picture-frame.png"))));
+        stage=primaryStage;
         primaryStage.show();
     }
 
