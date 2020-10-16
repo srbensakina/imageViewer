@@ -57,12 +57,7 @@ public class Controller {
         dlt.setDisable(false);
         init.setDisable(false);
         rtt.setDisable(false);
-/*
-        ColorAdjust colorAdjust = new ColorAdjust();
-        colorAdjust.setBrightness(-1);
-        bhView.setEffect(colorAdjust);
 
-        Main.stage.setScene(new Scene(new VBox(colorView, bhView)));*/
         imgv.setImage(img);
          h = imgv.getFitHeight();
          w = imgv.getFitWidth();
