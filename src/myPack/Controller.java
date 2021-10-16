@@ -128,6 +128,8 @@ public void glow(){
 
 }
 public void filtr(){
+    //filter effect
+    System.out.println("SepiaToneFilter");
     SepiaTone sepiaTone = new SepiaTone();
     sepiaTone.setLevel(0.3);
     imgv.setPreserveRatio(true);
