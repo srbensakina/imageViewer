@@ -11,6 +11,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    // creating objects
     static Image mystaticimg;
     static Stage stage;
     @Override
