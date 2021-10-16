@@ -47,6 +47,7 @@ public class Controller {
 
     @FXML
     void openFile() throws MalformedURLException {
+        System.out.println("opening img file");
         FileChooser fc = new FileChooser();
         fc.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("Image files", "*.png"));
         file = fc.showOpenDialog(new Stage());
